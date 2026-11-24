@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"><title>Quick Snippets</title></head><body>
+<header><h1>Quick Snippets</h1><span id="plan" class="badge">Free</span></header>
+<p class="small">In a message you are writing, type the shortcut (for example <b>;sig</b>) then press Space or Tab.</p>
+<div class="row"><input id="short" placeholder="shortcut, e.g. sig" maxlength="24"><button id="save" class="primary">Save</button></div>
+<textarea id="text" rows="4" placeholder="Snippet text. Pro: use {name}, {date}, {time}"></textarea>
+<div id="msg" role="status"></div>
+<ul id="list"></ul>
+<details id="pro"><summary>Pro: unlimited snippets and variables</summary>
+<p class="small">Free keeps 10 snippets. Pro (one-time $4.99) is unlimited and fills {name}, {date} and {time}. <a id="buy" href="#">Get Pro</a></p>
+<div class="row"><input id="key" placeholder="SNIP-XXXX-XXXX-XXXX"><button id="activate">Activate</button></div>
+<div class="row"><input id="myName" placeholder="Your name for {name}"><button id="saveName">Save</button></div>
+</details>
+<script src="lib.js"></script><script src="popup.js"></script></body></html>

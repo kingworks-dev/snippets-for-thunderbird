@@ -1,0 +1,11 @@
+body{width:360px;margin:0;padding:12px;font:13px system-ui,sans-serif;color:#1c2330;background:#fff}
+header{display:flex;justify-content:space-between;align-items:center}h1{font-size:16px;margin:0 0 4px}
+.badge{font-size:11px;padding:2px 8px;border-radius:10px;background:#e8edf5}.badge.pro{background:#b3261e;color:#fff}
+.row{display:flex;gap:6px;margin:6px 0}input,textarea{flex:1;padding:6px 8px;border:1px solid #c4ccd8;border-radius:6px;font:inherit;width:100%;box-sizing:border-box}
+button{padding:6px 10px;border:1px solid #c4ccd8;background:#f4f6fa;border-radius:6px;cursor:pointer;font:inherit}
+button.primary{background:#b3261e;border-color:#b3261e;color:#fff}
+ul{list-style:none;margin:8px 0;padding:0;max-height:230px;overflow:auto}
+li{border:1px solid #e1e6ee;border-radius:8px;padding:7px;margin-bottom:6px}li .t{font-weight:600}
+li .m{color:#5b667a;font-size:11px;margin:2px 0 5px;white-space:pre-wrap;max-height:34px;overflow:hidden}
+li button{font-size:11px;padding:3px 7px;margin-right:4px}#msg{min-height:16px;color:#0b6b2b;font-size:12px;margin-top:4px}#msg.err{color:#b42318}
+.small{font-size:12px;color:#5b667a}details{margin-top:8px}
